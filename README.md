@@ -34,3 +34,8 @@ padding and margin : u can use em and rem it depend u want the padding or margin
 
 6. adding a max width :
 when we setting a fixed width on ana element tends to be a bad idea , instead we can use percentages, which make our lives easier the only issue with this is at large screens,things can get too big thankfully,we have max width that setting the maximum width when u up ur layout the max-width will fix ur container growing.
+
+7. vmin and vmax :
+vmin its will tak the small viewport either width or height for example if 500 * 700 the dimensions of the viewport it will take 500 because its small so the viewport 5vw
+
+vmax will take the large viewport etther width or height .
