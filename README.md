@@ -39,3 +39,18 @@ when we setting a fixed width on ana element tends to be a bad idea , instead we
 vmin its will tak the small viewport either width or height for example if 500 * 700 the dimensions of the viewport it will take 500 because its small so the viewport 5vw
 
 vmax will take the large viewport etther width or height .
+
+
+# the day 2 in the bootcamp :
+ 
+1. max width :
+the prblem of seeting 100% in max width not the width :
+This might be a useful way to think about it: if the element would render wider than what max-width says it can be, max-width wins.
+Scenarios:
+Parent is 1000px wide
+Width says element should be 600px wide. That doesn’t break the max-width rule, so 600px it is!
+Width says element should be 1000px wide. That breaks max-width rule, so forces element down to 600px.
+Parent is 320px wide
+Width says element should be 600px wide. That breaks the max-width rule which says element can only be at most 320px wide, so 320px it is!
+Width says element should be 320px wide. That doesn’t break the max-width rule, so 320px it is!
+Whether the parent element is wider or narrower, these different rulesets end up agreeing with each other. (Although there is a difference when they are flex items.)
