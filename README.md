@@ -54,3 +54,16 @@ Parent is 320px wide
 Width says element should be 600px wide. That breaks the max-width rule which says element can only be at most 320px wide, so 320px it is!
 Width says element should be 320px wide. That doesn’t break the max-width rule, so 320px it is!
 Whether the parent element is wider or narrower, these different rulesets end up agreeing with each other. (Although there is a difference when they are flex items.)
+
+2. BEM : 
+standads for block, element , modifier . it is a methodology and naming convention used web development to create modular and reusable ocmponents in css and html.BEM provides a systematic way to structure and organize code,making it easier to undestand maintain, and collaborate on large scale-project :
+
+ . Block : astand alone componenet taht represents a high-level element on a webpage it is a reusable entity that can be used in diffrent contexts blocks are typicaly named with a descriptive calss name the reflects their purpose
+ 
+ for example : header , container , menu , checkbox , input 
+ 
+ Element : a part of a block that has no standalone meaning and semantically tied to its block :
+ for expamles menu item , list item , checkbox caption , header title.
+ 
+ Modifier a flag on a block or element use them to change appearance or behavior fo example:
+         'disabled', 'highlighted','checked','fixed','size big','color yellow'.

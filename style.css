@@ -1,14 +1,16 @@
 /* INSTRUCTIONS
  *
- * 1) Limit the total width of
- *    the .intro-conent to about half
- *    of it's parent
+ * 1) Keep the text inside .intro-content
+ *    in the same place, but have the background
+ *    extend from one side of the viewport
+ *    to the other, no matter how wide or narrow
+ *    the browser is.
  *
- * 2) Stop the text from overflowing
- *    out the bottom at small screen
- *    widths
+ * 2) Limit the maximum width of the text in the
+ *    bottom area.
  *
  * You may modify the HTML if needed
+ * (you probably should for this challenge)
  *
  */
 
@@ -22,15 +24,14 @@ body {
 }
 
 .container {
+  width: 80%;
+  max-width: 750px;
+  margin: 0 auto;
   background: #23424a;
   color: white;
-
-  width: 80%;
-  margin: 0 auto;
-
-  padding: 2em;
+  padding: 50px 0;
 }
 
-.intro-content{
-    width: 50%;
+.intro-content {
+  width: 50%;
 }
