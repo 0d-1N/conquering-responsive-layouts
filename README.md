@@ -67,3 +67,23 @@ standads for block, element , modifier . it is a methodology and naming conventi
  
  Modifier a flag on a block or element use them to change appearance or behavior fo example:
          'disabled', 'highlighted','checked','fixed','size big','color yellow'.
+
+3. flex box :
+flex box is one dimensional layout method for arranging items in rows or columns , this css feature allow you to create  flexible and responsive designs by arranging elements along a single axis either horizontally or vertically.flexbox provides properties and values that control the sizing,positioning and alignment of flex items within a flex container
+
+the crosss axis in the flex : the cross axis is the perpendicular direction to the main axis within flex container it represents the secondary axis along which flex items are aligned and distributed for example in the main axis is set to row the cross axis would run vertically,and if the main axis is set to a column, the cross axis would run horizontally.properties like "align-items" and "align-self" are used to control the postioning of flex items along this crosss axis.
+. when u write the flex property u get a layout with equal size and equal height
+
+4. flex flow :
+abriviation of two properties flex direction and flex wrap
+5. align content :
+work like justify content but u need multiple content of lines .
+6. flex shrink :
+the flex-shrink its a css property sets the flex shrink factor of a flex item.if the size of all flex items is larger than the flex container , items to fit according to flex-shrink
+7. flex-grow
+the flex-grow its a css property sts the flex grow factor , which specifies how much of the flex coontainers remaining space should be assigned to the flex items.
+8. flex basis :
+how much room does this want to be taking if has the avaliable space .
+
+9. the short hand :
+flex : flex grow flex-shrink flex basis.
