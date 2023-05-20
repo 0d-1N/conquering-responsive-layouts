@@ -11,7 +11,13 @@
 
 body{
     font-size: 1.3rem;
+    min-height: 100%;
 }
+h2{
+    font-size: 3.6rem;
+    font-family: 'Playfair Display', serif;       
+}
+
 
 
 header{
@@ -27,7 +33,6 @@ header{
 .container{
     text-align: center;
     width: 40%;
-  
     border: 1px solid green;
     color:#824936 ;
 }
@@ -43,5 +48,67 @@ header{
 
 .header__heading{
     font-size: 4.0rem;
-font-family: 'Playfair Display', serif;;
+font-family: 'Playfair Display', serif;
+}
+
+
+
+.main__content{
+    border: 1px solid black;
+}
+.main__title{
+text-align: center;
+text-transform: uppercase;
+font-family:'Playfair Display', serif;
+color: #824936;
+padding-top: 2.5em;
+}
+.main__article{
+    display: flex;
+    margin: 3em auto;
+    border: 1px solid black;
+    padding: 2em;
+}
+.main__paragraph{
+    margin-right:3em;
+    line-height: 1.5em;    
+}
+
+
+.content_description{
+    display: flex;
+    border: 1px solid black;
+    padding: 5em 0;
+    justify-content: center;
+   color: white;
+}
+
+.container__content{
+    width: 43%;
+    margin-left: 3em ;
+    border: 1px solid black;
+    line-height: 1.5em;
+    padding: 1em;
+   
+}
+.right{
+    margin-right: 3em;
+}
+.content__paragraph{
+    color: white;
+}
+.content__title{
+    border: 1px solid black;
+    margin-bottom:.5em;
+    color: bisque;
+}
+.content__title::first-letter{
+    text-transform: capitalize;
+}
+
+.first{
+    background-color: #222c2a;
+}
+.second{
+  background-color: #824936;   
 }
