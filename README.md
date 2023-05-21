@@ -87,3 +87,6 @@ how much room does this want to be taking if has the avaliable space .
 
 9. the short hand :
 flex : flex grow flex-shrink flex basis.
+
+10. media query :
+Media query is a CSS technique introduced in CSS3. It uses the @media rule to include a block of CSS properties only if a certain condition is true.
