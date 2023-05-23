@@ -64,16 +64,14 @@ header {
 
 .nav {
     width: 100%;
-
 }
 ul{
     list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
 }
-a{
-    text-decoration: none;
-    color: white;
-}
-
 
 
 .nav-toggle {
@@ -89,9 +87,6 @@ a{
     
     position: absolute;
     left: 0;
-}
-.nav__list--secondary{
-    margin-top: -18px;
 }
 
 .nav-toggle:focus,
@@ -131,24 +126,17 @@ a{
    to make it more accessible.
    
    Works the same :) */
-   .nav {
-    /*Otherstyles...*/max-height: 0;
-    overflow: hidden;
-    transition: max-height .3s ease-in;
-    -webkit-transition: max-height .3s ease-in;
-    -moz-transition: max-height .3s ease-in;
-    -ms-transition: max-height .3s ease-in;
-    -o-transition: max-height .3s ease-in;
+.nav {
+    visibility: hidden;
+    height: 0;
+    position: absolute;
 }
-  
-  .nav--visible {
-   max-height: 500px;
-   transition: max-height .3s ease-in;
-   -webkit-transition: max-height .3s ease-in;
-   -moz-transition: max-height .3s ease-in;
-   -ms-transition: max-height .3s ease-in;
-   -o-transition: max-height .3s ease-in;
-}
+
+.nav--visible {
+    visibility: visible;
+    height: auto;
+    position: relative;
+} 
 
 
 .logo {
