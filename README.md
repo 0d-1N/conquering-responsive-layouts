@@ -93,3 +93,9 @@ Media query is a CSS technique introduced in CSS3. It uses the @media rule to in
 
 11. At-rules:
 are CSS statements that instruct CSS how to behave. They begin with an at sign, '@' (U+0040 COMMERCIAL AT), followed by an identifier and includes everything up to the next semicolon, ';' , or the next CSS block, whichever comes first
+
+
+12. perpendicularité:
+La perpendicularité (du latin per-pendiculum, « fil à plomb ») est le caractère de deux entités géométriques qui se coupent à angle droit. La perpendicularité est une propriété importante en géométrie et en trigonométrie, branche des mathématiques fondée sur les triangles rectangles, dotés de propriétés particulières grâce à leurs deux segments perpendiculaires.
+
+
