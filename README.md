@@ -99,3 +99,7 @@ are CSS statements that instruct CSS how to behave. They begin with an at sign, 
 La perpendicularité (du latin per-pendiculum, « fil à plomb ») est le caractère de deux entités géométriques qui se coupent à angle droit. La perpendicularité est une propriété importante en géométrie et en trigonométrie, branche des mathématiques fondée sur les triangles rectangles, dotés de propriétés particulières grâce à leurs deux segments perpendiculaires.
 
 
+13. debugging css :
+Sometimes when writing CSS you will encounter an issue where your CSS doesn't seem to be doing what you expect. Perhaps you believe that a certain selector should match an element, but nothing happens, or a box is a different size than you expected. This article will give you guidance on how to go about debugging a CSS problem, and show you how the DevTools included in all modern browsers can help you to find out what is going on.
+
+
