@@ -105,5 +105,8 @@ Sometimes when writing CSS you will encounter an issue where your CSS doesn't se
 14. why we use mobile first :
 Essentially, the aim of mobile first is to switch the workflow from tackling desktop designs first and addressing the mobile design head on, working towards the desktop version as the project evolves. With Mobile First, developers have the flexibility to scale up rather than scale down.
 
+15. media responsive design breakpoint:
+Essentially, media query breakpoints are pixel values that a developer/designer can define in CSS. When a responsive website reaches those pixel values, a transformation (such as the one detailed above) occurs so that the website offers an optimal user experience.
+
 
 
