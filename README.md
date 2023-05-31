@@ -108,5 +108,8 @@ Essentially, the aim of mobile first is to switch the workflow from tackling des
 15. media responsive design breakpoint:
 Essentially, media query breakpoints are pixel values that a developer/designer can define in CSS. When a responsive website reaches those pixel values, a transformation (such as the one detailed above) occurs so that the website offers an optimal user experience.
 
+16. what is dvh:
+The dynamic viewport-percentage units (dv*) are defined with respect to the dynamic viewport size: the viewport sized with dynamic consideration of any UA interfaces that are dynamically expanded and retracted. This allows authors to size content such that it can exactly fit within the viewport whether or not such interfaces are present.
+
 
 
