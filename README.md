@@ -114,5 +114,8 @@ The dynamic viewport-percentage units (dv*) are defined with respect to the dyna
 17. grid layout :
 The CSS Grid Layout Module offers a grid-based layout system, with rows and columns, making it easier to design web pages without having to use floats and positioning.
 
+18. object fit :
+La propriété CSS object-fit définit la façon dont le contenu d'un élément remplacé (<img> ou <video> par exemple) doit s'adapter à son conteneur en utilisant sa largeur et sa hauteur.
+
 
 
