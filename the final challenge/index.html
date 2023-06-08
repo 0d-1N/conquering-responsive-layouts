@@ -12,9 +12,10 @@
       <button class="nav-toggle" aria-label="open navigation">
         <span class="hamburger"></span>
       </button>
-      <a href="#" class="logo">
+     <a href="#" class="logo">
          <img src="assets/logo.svg" alt="conquering responsive layouts">
-      </a>
+      </a> 
+      <div class="container row">
       <nav class="nav">
         <ul class="list__navigation--primary">
           <li class="list-item">home</li>
@@ -23,26 +24,25 @@
         </ul>
         <ul class="list-navigation--secondary">
           <ul>
-            <li>sign in</li>
-            <li>
+            <li class="list-item">sign in</li>
+            <li class="list-item">
               <a href="#">sign up</a>
             </li>
           </ul>
         </ul>
       </nav>
+    </div>
     </header>
     <main class="main__content">
       <section class="first__section">
         <article class="first__article">
           <h1 class="heading__section-first">
-            responsive layout don't have to be a struggle
+            responsive layout <span class="gold"> don't have to be a struggle</span>
           </h1>
           <div class="container__paragraph--first">
             <p>
               Lorem ipsum, dolor sit amet consectetur adipisicing elit.
               Accusamus recusandae reiciendis culpa error incidunt nesciunt
-              iure, deserunt magnam amet. Ab quia soluta earum nemo quas
-              pariatur ducimus, iste numquam facere
             </p>
             <a href="" class="check__button--first"> i want to learn </a>
           </div>
@@ -51,29 +51,26 @@
       <section class="second__section">
         <article class="description__second--section">
           <h2 class="heading__second--section">mobile-first</h2>
-          <p class="description__second--section">
+          <p class="description__second--section__p">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum fugit
             tenetur officia quae, aut odio consequatur fuga necessitatibus,
-            assumenda quod id! At doloremque voluptatum, earum animi nisi fugiat
-            inventore voluptates.
+      .
           </p>
         </article>
         <article class="description__second--section">
           <h2 class="heading__second--section">mobile-first</h2>
-          <p class="description__second--section">
+          <p class="description__second--section__p">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum fugit
             tenetur officia quae, aut odio consequatur fuga necessitatibus,
-            assumenda quod id! At doloremque voluptatum, earum animi nisi fugiat
-            inventore voluptates.
+
           </p>
         </article>
         <article class="description__second--section">
           <h2 class="heading__second--section">mobile-first</h2>
-          <p class="description__second--section">
+          <p class="description__second--section__p">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum fugit
             tenetur officia quae, aut odio consequatur fuga necessitatibus,
-            assumenda quod id! At doloremque voluptatum, earum animi nisi fugiat
-            inventore voluptates.
+        
           </p>
         </article>
       </section>
@@ -117,7 +114,8 @@
     </main>
     <footer class="footer__main--page">
         <h1 class="footer__heading">just scratching the surface</h1>
-        <div class="container__description--footer">
+        <div class="container__footer">
+        <div class="container__description--footer--principal">
             <h2 class="heading__description--footer">about our company</h2>
             <p class="description__paragraph">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero voluptas nulla adipisci nesciunt vel, cum recusandae exercitationem itaque a consectetur dolores non ipsa sit, dignissimos repellendus aspernatur, odit beatae quis?</p>
         </div>
@@ -139,7 +137,7 @@
             </ul>
         </div>
         <div class="container__description--footer">
-            <h2 class="heading__description--footer"></h2>
+            <h2 class="heading__description--footer">and more</h2>
             <ul class="list__description--items">
                 <li class="description-items">lorem ipsum</li>
                 <li class="description-items">dolor</li>
@@ -147,6 +145,8 @@
                 <li class="description-items">adasd</li>
             </ul>
         </div>
+      </div>
     </footer>
+   <script src="app.js"></script>
   </body>
 </html>
